@@ -1,5 +1,14 @@
 # 在地化繁轉簡腳本
 這是一個工作用途能讓文字檔案中選取的文字由繁體轉成簡體的腳本，能將特定用詞翻譯成符合大陸地區的常用詞匯以達到文本在地化效果。
-# The traditional-to-simplified script for localized text
-This is a script used as a working tool to convert the selected text in a text file from traditional to simplified, and to translate specific words into commonly used words in mainland China to achieve the localization effect of the text.
+
+## 特色
++ **一鍵轉換** 運行後在編輯介面中將區域選取,透過設定的熱鍵由繁轉簡(預設為F4)
++ **在地化文本** 使用[OpenCC](https://github.com/BYVoid/OpenCC) 的tw2sp功能將特定用詞轉換成大陸地區慣用詞, 也新增可客製化的詞語能重新校正這些用詞以符合不同語境下的其他用詞
+
+## 使用
+運行程式後,在可編輯文字的區域將欲轉簡的文句選取, 按下F4(預設)即可。
+
+
+
+
 
